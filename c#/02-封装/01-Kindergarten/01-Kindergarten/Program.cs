@@ -1,10 +1,14 @@
 ﻿using System;
+using Child;
+
+
 namespace Kindergarten
 {
-    public class Program
+    class MainClass
     {
-        public Program()
+        public static void Main(string[] args)
         {
+            Child xiaomi = new Child();
         }
     }
 }
